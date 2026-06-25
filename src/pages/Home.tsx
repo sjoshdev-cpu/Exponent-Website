@@ -653,7 +653,7 @@ export default function Home() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-24 items-center">
             <AnimatedSection delay={0.1}>
               <div className="relative h-[400px] bg-gradient-to-br from-[#0A1628] to-[#1B2D4F] rounded-[12px] overflow-hidden flex flex-col items-center justify-center text-center p-10 shadow-lg">
-                <div className="text-white font-bold text-7xl leading-none mb-3">1,000+</div>
+                <div className="text-white font-bold text-7xl leading-none mb-3"><CountUp end={1000} duration={3} separator="," />+</div>
                 <div className="text-primary text-[13px] uppercase tracking-[0.12em] font-bold">Professionals Certified</div>
                 <div className="absolute bottom-0 left-0 right-0 h-1 bg-primary" />
               </div>
@@ -663,7 +663,7 @@ export default function Home() {
               <AnimatedHeading className="text-[#121212]">
                 We Don't Just Train People. We Build the Future Workforce.
               </AnimatedHeading>
-              <p className="text-[#5A5A5A] text-[17px] leading-[1.75] mb-8">Over 1,000 professionals certified through our physical and virtual learning programmes. From customer service excellence to leadership development. Exponent Academy equips people with skills that pay dividends for life.</p>
+              <p className="text-[#5A5A5A] text-[17px] leading-[1.75] mb-8">Over <strong className="text-[#121212]"><CountUp end={1000} duration={3} separator="," />+</strong> professionals certified through our physical and virtual learning programmes. From customer service excellence to leadership development. Exponent Academy equips people with skills that pay dividends for life.</p>
               <MagneticButton
                 as="button"
                 onClick={() => setLocation("/academy")}

@@ -1,5 +1,6 @@
-import { useEffect } from "react";
+import { useEffect, useRef, useState } from "react";
 import { useLocation } from "wouter";
+import CountUp from "react-countup";
 import AnimatedSection from "@/components/AnimatedSection";
 import AnimatedHeading from "@/components/AnimatedHeading";
 import MagneticButton from "@/components/MagneticButton";
@@ -78,14 +79,16 @@ export default function Academy() {
                 Exponent Academy is a physical and virtual learning institution delivering certified training that transforms careers and elevates performance. We develop talent for our own operations and for the broader African business community.
               </p>
               <p className="text-[#5A5A5A] text-[17px] leading-[1.75] max-w-[560px] mt-4">
-                Over 1,000 professionals certified. Programmes spanning customer service, leadership, sales, and digital skills.
+                Over <strong className="text-[#121212]"><CountUp end={1000} duration={3} separator="," />+</strong> professionals certified. Programmes spanning customer service, leadership, sales, and digital skills.
               </p>
             </AnimatedSection>
             <AnimatedSection delay={0.15}>
               <div className="relative bg-[#0A1628] rounded-[12px] p-10 text-center shadow-lg overflow-hidden">
                 <div className="absolute inset-0 bg-gradient-to-br from-[#0A1628] to-[#1B2D4F]" />
                 <div className="relative z-10">
-                  <div className="text-white font-bold text-7xl mb-2">1,000+</div>
+                  <div className="text-white font-bold text-7xl mb-2">
+                    <CountUp end={1000} duration={3} separator="," />+
+                  </div>
                   <div className="text-primary text-[13px] uppercase tracking-[0.12em] font-bold">Professionals Certified</div>
                   <div className="w-12 h-[2px] bg-primary mx-auto my-6" />
                   <p className="text-white/60 text-[15px] leading-[1.6]">Through physical and virtual learning programmes across Africa</p>
