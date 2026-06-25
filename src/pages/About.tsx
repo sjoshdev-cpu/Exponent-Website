@@ -31,12 +31,12 @@ const TEAM = [
   { name: "Uchechi Awaraka", title: "Director, Nigeria" },
   { name: "Abigail Kalua", title: "Director, Kenya" },
   { name: "Tanaka Nyemba", title: "Head of MIS" },
-  { name: "Daliso Daka", title: "HR Manager" },
-  { name: "Mbule Mwimba", title: "Head of Back Office Ops" },
-  { name: "Clautilda Kaoma", title: "Head of Legal & Compliance" },
-  { name: "Lutengano Tembo", title: "Head of Call Centre Ops" },
-  { name: "Owen Kamboyi", title: "Head of Trade Operations" },
   { name: "Matthews Nyirenda", title: "Head of R&D" },
+  { name: "Clautilda Kaoma", title: "Head of Legal & Compliance" },
+  { name: "Owen Kamboyi", title: "Head of Trade Operations" },
+  { name: "Daliso Daka", title: "HR Manager" },
+  { name: "Lutengano Tembo", title: "Head of Call Centre Ops" },
+  { name: "Mbule Mwimba", title: "Head of Back Office Ops" },
 ];
 
 const VALUES = [
