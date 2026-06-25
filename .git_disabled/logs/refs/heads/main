@@ -1,0 +1,3 @@
+0000000000000000000000000000000000000000 537cbc16c4fed0bce5bc2036bd5371e1f7b1d000 Altus Developer <user@example.com> 1781872656 +0200	commit (initial): Initial commit - Exponent Website
+537cbc16c4fed0bce5bc2036bd5371e1f7b1d000 537cbc16c4fed0bce5bc2036bd5371e1f7b1d000 Altus Developer <user@example.com> 1781872700 +0200	Branch: renamed refs/heads/master to refs/heads/main
+537cbc16c4fed0bce5bc2036bd5371e1f7b1d000 5879254aa346942937ebe8f1201f9b95cc224887 Altus Developer <user@example.com> 1781873777 +0200	commit: Add .gitignore file
