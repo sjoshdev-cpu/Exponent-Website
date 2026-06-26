@@ -15,7 +15,7 @@ import {
   ArrowRight, X, CheckCircle
 } from "lucide-react";
 import heroBpo from "@/assets/hero-bpo.png";
-import aboutLeader from "@/assets/about-leader.png";
+import aboutLeader from "@/assets/Lute homepage.jpg";
 
 // ── SDG LOCAL ASSETS ──────────────────────────────────────────────────────────
 import sdg1Img from "@/assets/sdg1.png";
@@ -478,10 +478,10 @@ export default function Home() {
             transition={{ duration: 0.5, delay: 0.1 }}
             className="text-primary text-[16px] font-bold uppercase tracking-[0.12em] mb-6"
           >
-            Pan-African · BPO · Offshoring · Using Tech to Work Smarter
+            Pan-African · BPO · Offshoring
           </motion.div>
           <div className="mb-8">
-            <AnimatedWordReveal text="We Are the Bridge Between Ambition and Execution." className="text-white max-w-[900px]" />
+            <AnimatedWordReveal text="We Are the Bridge Between Ambition and Execution." className="text-white max-w-[900px] !text-[42px] md:!text-[52px]" />
           </div>
           <motion.p
             initial={{ opacity: 0, y: 20 }}
@@ -538,7 +538,7 @@ export default function Home() {
             <AnimatedSection>
               <div className="text-primary text-[12px] font-bold uppercase tracking-[0.12em] mb-4">Who We Are</div>
               <AnimatedHeading className="text-[#121212]">
-                Africa's Premier Women-Led BPO & Using Tech to Work Smarter Partner
+                Africa's Premier Women-Led BPO
               </AnimatedHeading>
               <p className="text-[#5A5A5A] text-[17px] leading-[1.75] mb-8 max-w-[600px]">
                 Exponent Bizolution Ltd is a Pan-African company specialising in Business Process Outsourcing, Customer Experience Management, IT Solutions, and Consultancy. Rooted in excellence, professionalism, and inclusivity, we partner with leading businesses across Africa to deliver solutions that scale.

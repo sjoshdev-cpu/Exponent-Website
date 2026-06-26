@@ -4,6 +4,7 @@ import AnimatedSection from "@/components/AnimatedSection";
 import AnimatedHeading from "@/components/AnimatedHeading";
 import MagneticButton from "@/components/MagneticButton";
 import heroImpact from "@/assets/hero-impact.png";
+import stanfordSeedLogo from "@/assets/stanford seed logo.png";
 
 // ── SDG LOCAL ASSETS ──────────────────────────────────────────────────────────
 import sdg1Img from "@/assets/sdg1.png";
@@ -108,8 +109,8 @@ export default function Impact() {
             <AnimatedSection delay={0.2}>
               <div className="bg-[#0A1628] rounded-[16px] p-8 md:p-10 shadow-xl">
                 <div className="flex items-center gap-4 mb-8">
-                  <div className="w-12 h-12 bg-primary rounded-full flex items-center justify-center flex-shrink-0">
-                    <span className="text-white font-bold text-[18px]">S</span>
+                  <div className="w-12 h-12 rounded-full overflow-hidden flex-shrink-0 border-2 border-white/20">
+                    <img src={stanfordSeedLogo} alt="Stanford Seed" className="w-full h-full object-contain bg-white p-1" />
                   </div>
                   <div>
                     <div className="text-white font-bold text-[16px]">Stanford Seed</div>

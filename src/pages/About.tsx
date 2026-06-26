@@ -8,35 +8,23 @@ import AnimatedHeading from "@/components/AnimatedHeading";
 import MagneticButton from "@/components/MagneticButton";
 import TiltCard from "@/components/TiltCard";
 import { Shield, Zap, Users, Globe, Lightbulb, Star, Leaf } from "lucide-react";
-// New team member images (filenames indicate the intended card)
-import teamImg1 from "@/assets/team-1.png";
-import teamImg2 from "@/assets/team-2.png";
-// New team member images
 import AbigailImg from "@/assets/Abigail.jpg";
-import TanakaImg from "@/assets/Tanaka.webp";
-import DalisoImg from "@/assets/Daliso.webp";
 import LoratoImg from "@/assets/Lorato.jpg";
-import MbuleImg from "@/assets/Mbule.jpg";
 import UchechiImg from "@/assets/Uchechi.jpg";
 import LutenganoImg from "@/assets/Lutengano.jpg";
 import UgoImg from "@/assets/Ugo.jpg";
 import NkechiImg from "@/assets/Nkechi.jpg";
 import ClautildaImg from "@/assets/clautilda.webp";
-import OwenImg from "@/assets/Owen.jpg";
-import MattImg from "@/assets/Matt (1).jpg";
+import BonganiImg from "@/assets/Bongani.webp";
 const TEAM = [
-  { name: "Nkechi Ajih", title: "CEO" },
-  { name: "Ugo Tony Ajih", title: "Managing Director" },
-  { name: "Lorato Mwape", title: "Director, Botswana" },
-  { name: "Uchechi Awaraka", title: "Director, Nigeria" },
-  { name: "Abigail Kalua", title: "Director, Kenya" },
-  { name: "Tanaka Nyemba", title: "Head of MIS" },
-  { name: "Matthews Nyirenda", title: "Head of R&D" },
-  { name: "Clautilda Kaoma", title: "Head of Legal & Compliance" },
-  { name: "Owen Kamboyi", title: "Head of Trade Operations" },
-  { name: "Daliso Daka", title: "HR Manager" },
-  { name: "Lutengano Tembo", title: "Head of Call Centre Ops" },
-  { name: "Mbule Mwimba", title: "Head of Back Office Ops" },
+  { name: "Ugo Tony Ajih",    title: "Board Chairperson" },
+  { name: "Nkechi Ajih",      title: "CEO" },
+  { name: "Clautilda Kaoma",  title: "Head of Legal & Compliance" },
+  { name: "Lorato Mwape",     title: "Director, Botswana" },
+  { name: "Uchechi Awaraka",  title: "Director, Nigeria" },
+  { name: "Abigail Kalua",    title: "Director, Kenya" },
+  { name: "Bongani",          title: "Head of Call Centre Ops" },
+  { name: "Lutengano Tembo",  title: "Supervisor of Call Centre Ops" },
 ];
 
 const VALUES = [
@@ -190,19 +178,14 @@ export default function About() {
             {(() => {
               // Map each team member name to its imported image
               const imageMap: Record<string, string> = {
-                "Ugo Tony Ajih": UgoImg,
-                "Nkechi Ajih": NkechiImg,
-                "Lorato Mwape": LoratoImg,
+                "Ugo Tony Ajih":   UgoImg,
+                "Nkechi Ajih":     NkechiImg,
+                "Clautilda Kaoma": ClautildaImg,
+                "Lorato Mwape":    LoratoImg,
                 "Uchechi Awaraka": UchechiImg,
-                "Abigail Kalua": AbigailImg,
-                "Tanaka Nyemba": TanakaImg,
-                "Daliso Daka": DalisoImg,
-                "Mbule Mwimba": MbuleImg,
-              "Clautilda Kaoma": ClautildaImg,
-              "Lutengano Tembo": LutenganoImg,
-              "Owen Kamboyi": OwenImg,
-              "Matthews Nyirenda": MattImg,
-              // fallback for any missing entry
+                "Abigail Kalua":   AbigailImg,
+                "Bongani":         BonganiImg,
+                "Lutengano Tembo": LutenganoImg,
               };
               return TEAM.map((member, i) => {
                 const imgSrc = imageMap[member.name] ?? null;

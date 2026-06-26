@@ -49,7 +49,7 @@ export default function Navbar() {
                 <Link
                   key={link.name}
                   href={link.href}
-                  className={`text-[14px] font-semibold tracking-[0.04em] transition-colors duration-200 ${
+                  className={`text-[16px] font-semibold tracking-[0.04em] transition-colors duration-200 ${
                     active
                       ? "text-primary border-b-2 border-primary pb-1"
                       : "text-white/85 hover:text-white"
