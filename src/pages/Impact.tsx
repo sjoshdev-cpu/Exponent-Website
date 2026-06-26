@@ -3,7 +3,7 @@ import { useLocation } from "wouter";
 import AnimatedSection from "@/components/AnimatedSection";
 import AnimatedHeading from "@/components/AnimatedHeading";
 import MagneticButton from "@/components/MagneticButton";
-import heroImpact from "@/assets/hero-impact.png";
+import heroImpact from "@/assets/hero-impact.jpg";
 import stanfordSeedLogo from "@/assets/stanford seed logo.png";
 
 // ── SDG LOCAL ASSETS ──────────────────────────────────────────────────────────

@@ -14,7 +14,7 @@ import {
   ShoppingCart, Archive, CreditCard, Briefcase,
   ArrowRight, X, CheckCircle
 } from "lucide-react";
-import heroBpo from "@/assets/hero-bpo.png";
+import heroBpo from "@/assets/hero-bpo.jpg";
 import aboutLeader from "@/assets/Lute homepage.jpg";
 
 // ── SDG LOCAL ASSETS ──────────────────────────────────────────────────────────
@@ -46,14 +46,14 @@ import altus from "@/assets/Altus.png";
 import zamtel from "@/assets/Zamtel.png";
 import zamtelMoney from "@/assets/Zamtel Money.png";
 import abInBev from "@/assets/ABInBev.png";
-import serviceCx from "@/assets/service-cx.png";
-import serviceSales from "@/assets/service-sales.png";
-import serviceTraining from "@/assets/service-training.png";
-import serviceDigital from "@/assets/service-digital.png";
-import serviceTrade from "@/assets/service-trade.png";
-import serviceBackoffice from "@/assets/service-backoffice.png";
-import serviceDebt from "@/assets/service-debt.png";
-import serviceConsultancy from "@/assets/service-consultancy.png";
+import serviceCx from "@/assets/service-cx.jpg";
+import serviceSales from "@/assets/service-sales.jpg";
+import serviceTraining from "@/assets/service-training.jpg";
+import serviceDigital from "@/assets/service-digital.jpg";
+import serviceTrade from "@/assets/service-trade.jpg";
+import serviceBackoffice from "@/assets/service-backoffice.jpg";
+import serviceDebt from "@/assets/service-debt.jpg";
+import serviceConsultancy from "@/assets/service-consultancy.jpg";
 
 const SERVICES = [
   { icon: Headphones, title: "Customer Experience Solutions", desc: "Inbound, outbound, retention, and churn management across every channel.", img: serviceCx },

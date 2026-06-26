@@ -6,7 +6,7 @@ import AnimatedHeading from "@/components/AnimatedHeading";
 import MagneticButton from "@/components/MagneticButton";
 import TiltCard from "@/components/TiltCard";
 import { Bot, BarChart2, Activity, Users, BookOpen, Award, Zap, Globe } from "lucide-react";
-import heroAcademy from "@/assets/hero-academy.png";
+import heroAcademy from "@/assets/hero-academy.jpg";
 
 const INNOVATIONS = [
   {

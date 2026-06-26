@@ -8,15 +8,15 @@ import {
   Headphones, TrendingUp, GraduationCap, Monitor,
   ShoppingCart, Archive, CreditCard, Briefcase, ChevronDown, ChevronUp
 } from "lucide-react";
-import serviceCx from "@/assets/service-cx.png";
-import serviceSales from "@/assets/service-sales.png";
-import serviceTraining from "@/assets/service-training.png";
-import serviceDigital from "@/assets/service-digital.png";
-import serviceTrade from "@/assets/service-trade.png";
-import serviceBackoffice from "@/assets/service-backoffice.png";
-import serviceDebt from "@/assets/service-debt.png";
-import serviceConsultancy from "@/assets/service-consultancy.png";
-import heroServices from "@/assets/hero-services.png";
+import serviceCx from "@/assets/service-cx.jpg";
+import serviceSales from "@/assets/service-sales.jpg";
+import serviceTraining from "@/assets/service-training.jpg";
+import serviceDigital from "@/assets/service-digital.jpg";
+import serviceTrade from "@/assets/service-trade.jpg";
+import serviceBackoffice from "@/assets/service-backoffice.jpg";
+import serviceDebt from "@/assets/service-debt.jpg";
+import serviceConsultancy from "@/assets/service-consultancy.jpg";
+import heroServices from "@/assets/hero-services.jpg";
 
 const SERVICES = [
   {

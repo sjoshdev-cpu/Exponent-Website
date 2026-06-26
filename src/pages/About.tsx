@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import { useLocation } from "wouter";
 import CountUp from "react-countup";
 import { useInView as useIOInView } from "react-intersection-observer";
-import heroAbout from "@/assets/hero-about.png";
+import heroAbout from "@/assets/hero-about.jpg";
 import AnimatedSection from "@/components/AnimatedSection";
 import AnimatedHeading from "@/components/AnimatedHeading";
 import MagneticButton from "@/components/MagneticButton";

@@ -6,7 +6,7 @@ import AnimatedHeading from "@/components/AnimatedHeading";
 import MagneticButton from "@/components/MagneticButton";
 import TiltCard from "@/components/TiltCard";
 import { Globe, Heart, Zap, Users, MapPin, TrendingUp, ArrowRight, X, CheckCircle, Upload } from "lucide-react";
-import heroCareers from "@/assets/hero-careers.png";
+import heroCareers from "@/assets/hero-careers.jpg";
 
 const WHY = [
   { icon: Globe, title: "Pan-African Footprint", desc: "Work across five countries with a team that thinks continentally." },
