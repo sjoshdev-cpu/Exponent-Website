@@ -4,14 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
     <title>Exponent Bizolution</title>
-    <meta name="description" content="Exponent Bizolution — built on Replit. Update this description to reflect the app." />
+    <meta name="description" content="Exponent Bizolution — Africa's leading women-led BPO company delivering Customer Experience, Trade Management, IT Solutions and Training across Africa." />
     <meta name="robots" content="index, follow" />
     <meta property="og:title" content="Exponent Bizolution" />
-    <meta property="og:description" content="Exponent Bizolution — built on Replit. Update this description to reflect the app." />
+    <meta property="og:description" content="Exponent Bizolution — Africa's leading women-led BPO company delivering Customer Experience, Trade Management, IT Solutions and Training across Africa." />
     <meta property="og:type" content="website" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Exponent Bizolution" />
-    <meta name="twitter:description" content="Exponent Bizolution — built on Replit. Update this description to reflect the app." />
+    <meta name="twitter:description" content="Exponent Bizolution — Africa's leading women-led BPO company delivering Customer Experience, Trade Management, IT Solutions and Training across Africa." />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,5 +20,32 @@
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
+
+    <!-- Chatbase Virtual Assistant -->
+    <script>
+      (function(){
+        if(!window.chatbase||window.chatbase("getState")!=="initialized"){
+          window.chatbase=(...arguments)=>{
+            if(!window.chatbase.q){window.chatbase.q=[]}
+            window.chatbase.q.push(arguments)
+          };
+          window.chatbase=new Proxy(window.chatbase,{
+            get(target,prop){
+              if(prop==="q"){return target.q}
+              return(...args)=>target(prop,...args)
+            }
+          })
+        }
+        const onLoad=function(){
+          const script=document.createElement("script");
+          script.src="https://www.chatbase.co/embed.min.js";
+          script.id="MJsSTnfWzCYrrcPO-cURw";
+          script.domain="www.chatbase.co";
+          document.body.appendChild(script)
+        };
+        if(document.readyState==="complete"){onLoad()}
+        else{window.addEventListener("load",onLoad)}
+      })();
+    </script>
   </body>
 </html>
